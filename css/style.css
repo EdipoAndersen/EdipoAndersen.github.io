@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 /* Cores do site */
 
 body {
@@ -19,6 +20,7 @@ body {
     padding-top: 80px;
 
 }
+
 
 /* Navbar */
 
@@ -36,7 +38,9 @@ header {
 
 }
 
+
 nav {
+
     display: flex;
 
     justify-content: space-between;
@@ -44,25 +48,36 @@ nav {
     align-items: center;
 
     padding: 20px 60px;
+
 }
 
+
 nav ul {
+
     display: flex;
 
     list-style: none;
 
     gap: 30px;
+
 }
 
+
 nav a {
+
     color: white;
 
     text-decoration: none;
+
 }
 
+
 nav a:hover {
+
     color: #58a6ff;
+
 }
+
 
 /* Hero Section */
 
@@ -157,6 +172,7 @@ nav a:hover {
 
 }
 
+
 /* General Sections */
 
 section {
@@ -195,6 +211,7 @@ section {
     margin-bottom: 20px;
 
 }
+
 
 /* Experience */
 
@@ -252,8 +269,8 @@ section {
 
 }
 
-/* Projects */
 
+/* Projects */
 
 .projects-grid {
 
@@ -264,7 +281,6 @@ section {
     gap: 25px;
 
 }
-
 
 
 .project-card {
@@ -280,7 +296,6 @@ section {
 }
 
 
-
 .project-card h3 {
 
     font-size: 24px;
@@ -290,7 +305,6 @@ section {
 }
 
 
-
 .project-card span {
 
     color: #58a6ff;
@@ -298,7 +312,6 @@ section {
     font-weight: bold;
 
 }
-
 
 
 .project-card p {
@@ -312,7 +325,6 @@ section {
 }
 
 
-
 .tech-stack {
 
     color: #8b949e;
@@ -321,8 +333,8 @@ section {
 
 }
 
-/* Skills */
 
+/* Skills */
 
 .skills-grid {
 
@@ -333,7 +345,6 @@ section {
     gap: 25px;
 
 }
-
 
 
 .skill-card {
@@ -349,7 +360,6 @@ section {
 }
 
 
-
 .skill-card h3 {
 
     color: #58a6ff;
@@ -357,7 +367,6 @@ section {
     margin-bottom: 15px;
 
 }
-
 
 
 .skill-card p {
@@ -368,8 +377,8 @@ section {
 
 }
 
-/* Contact */
 
+/* Contact */
 
 #contact {
 
@@ -391,7 +400,6 @@ section {
 }
 
 
-
 .contact-links a {
 
     background-color: #238636;
@@ -407,12 +415,14 @@ section {
 }
 
 
-
 .contact-links a:hover {
 
     opacity: 0.8;
 
 }
+
+
+/* Footer */
 
 footer {
 
@@ -426,35 +436,38 @@ footer {
 
 }
 
+
 html {
 
     scroll-behavior: smooth;
 
 }
 
+
 /* Mobile Responsive */
 
 @media (max-width: 768px) {
 
 
+    body {
+
+        padding-top: 60px;
+
+    }
+
+
     nav {
 
-        padding: 20px;
-
-        flex-direction: column;
-
-        gap: 20px;
+        padding: 12px 20px;
 
     }
 
 
     nav ul {
 
-        flex-direction: column;
+        gap: 12px;
 
-        gap: 15px;
-
-        text-align: center;
+        font-size: 14px;
 
     }
 
@@ -501,6 +514,9 @@ html {
     }
 
 }
+
+
+/* Project Images */
 
 .project-card img {
 
